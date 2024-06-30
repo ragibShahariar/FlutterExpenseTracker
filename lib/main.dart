@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:exptracker/expenses.dart';
 
 void main(){
   runApp(const MaterialApp(
-      home: Scaffold(
-        body: Text('what\'s up homie'),
-      ),
+      home: Expenses(),
   ),);
 }
