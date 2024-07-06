@@ -4,7 +4,7 @@ import 'package:exptracker/widget/expenses.dart';
 var kColorScheme =
     ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 106, 90, 205));
 var kDarkColorScheme =
-    ColorScheme.fromSeed(brightness: Brightness.dark,seedColor: const Color.fromARGB(255, 43, 38, 122) ,
+    ColorScheme.fromSeed(brightness: Brightness.dark, seedColor: const Color.fromARGB(255, 43, 38, 122) ,
     );
 
 void main() {
