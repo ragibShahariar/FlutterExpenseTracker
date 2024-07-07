@@ -10,6 +10,7 @@ var kDarkColorScheme =
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       darkTheme: ThemeData.dark().copyWith(
         colorScheme: kDarkColorScheme,
         cardTheme: const CardTheme().copyWith(
